@@ -1,0 +1,10 @@
+[user]
+	name = Victor Rodionov
+	email = vito.ordaz@gmail.com
+[http]
+	sslVerify = false
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --data=short
