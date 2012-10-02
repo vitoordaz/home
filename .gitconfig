@@ -6,6 +6,9 @@
 [alias]
 	st = status
 	ci = commit
-	br = branch
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --data=short
+	br = branch --color
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --data=short --color
 	cl = clone
+	sh = show --color
+	ch = checkout
+	di = diff --color
