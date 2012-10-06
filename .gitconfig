@@ -4,10 +4,10 @@
 [http]
 	sslVerify = false
 [alias]
-	st = status
+	st = status --short
 	ci = commit
 	br = branch --color
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --data=short --color
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --color
 	cl = clone
 	sh = show --color
 	ch = checkout
