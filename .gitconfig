@@ -5,6 +5,7 @@
 	sslVerify = false
 [alias]
 	st = status --short
+	stt = status
 	ci = commit
 	br = branch --color
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --color
