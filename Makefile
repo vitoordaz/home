@@ -1,5 +1,6 @@
 ALL: GIT VIM HG BASH_PROFILE
 	mkdir -p ~/bin
+	cp cap/cap ~/bin/
 
 GIT:
 	cp .gitconfig ~/
