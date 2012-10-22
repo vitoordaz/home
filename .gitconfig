@@ -13,4 +13,5 @@
 	sh = show --color
 	ch = checkout
 	di = diff --color
+	dih = diff --color HEAD
 	glog = log --graph --color
