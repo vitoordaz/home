@@ -1,18 +1,18 @@
 [user]
-	name = Victor Rodionov
-	email = vito.ordaz@gmail.com
+    name = Victor Rodionov
+    email = vito.ordaz@gmail.com
 [http]
-	sslVerify = false
+    sslVerify = false
 [alias]
-	st = status --short
-	stt = status
-	ci = commit
-	br = branch --color
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --color
-	cl = clone
-	sh = show --color
-	ch = checkout
-	di = diff --color
-	dih = diff --color HEAD
+    st = status --short
+    stt = status
+    ci = commit
+    br = branch --color
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --color
+    cl = clone
+    sh = show --color
+    ch = checkout
+    di = diff --color
+    dih = diff --color HEAD
     glog = log --graph --color
-    info = show --pretty=%h --color
+    info = show --pretty=%h --color --tags
