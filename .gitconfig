@@ -2,7 +2,7 @@
     name = Victor Ordaz
     email = vito.ordaz@gmail.com
 [http]
-    sslVerify = false
+    sslVerify = true
 [alias]
     st = status --short
     stt = status
